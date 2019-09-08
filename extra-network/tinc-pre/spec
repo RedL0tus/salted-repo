@@ -1,0 +1,5 @@
+_VER=1.1
+_PRE=17
+VER="${_VER}~pre${_PRE}"
+GITSRC="https://github.com/gsliepen/tinc.git"
+GITCO="tags/release-${_VER}pre${_PRE}"

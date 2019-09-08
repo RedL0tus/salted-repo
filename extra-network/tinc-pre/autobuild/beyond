@@ -1,0 +1,5 @@
+mkdir -p "$PKGDIR"/etc/tinc/
+mkdir -p "$PKGDIR"/usr/share/doc/tinc-pre/
+
+cp -rv --no-preserve='ownership' "doc/sample-config/" "$PKGDIR"/usr/share/doc/tinc-pre/
+install -Dm644 "bash_completion.d/tinc" -t "$PKGDIR"/usr/share/bash-completion/completions/

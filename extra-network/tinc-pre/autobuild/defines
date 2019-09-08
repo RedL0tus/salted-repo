@@ -1,0 +1,7 @@
+PKGNAME=tinc
+PKGSEC=net
+PKGDEP="lzo zlib openssl miniupnpc"
+BUILDDEP="git autoconf"
+PKGDES="A mesh VPN daemon (Pre-release)"
+
+AUTOTOOLS_AFTER="--with-systemd=/usr/lib/systemd/system --enable-miniupnpc"
